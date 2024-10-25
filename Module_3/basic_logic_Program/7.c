@@ -1,10 +1,12 @@
 #include<stdio.h>
+int area(int l,int w){
+    printf("\n area of rectangle is : %d",l*w);
+}
 int main(){
-    int a,l,w;
+    int l,w;
     printf("enter the lenght of : ");
     scanf("%d",&l);
     printf("enter the width of : ");
     scanf("%d",&w);
-    a=l*w;
-    printf("area of the rectangle is : %d",a);
+    area(l,w);
 }

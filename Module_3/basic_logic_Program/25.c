@@ -1,16 +1,15 @@
 #include<stdio.h>
 int main(){
-    int ex1,ex2,ex3,ex4,ex5,average;
-    printf("\n enter expence of 1 user : ");
-    scanf("%d",&ex1);
-    printf("\n enter expence of 2 user : ");
-    scanf("%d",&ex2);
-    printf("\n enter expence of 3 user : ");
-    scanf("%d",&ex3);
-    printf("\n enter expence of 4 user : ");
-    scanf("%d",&ex4);
-    printf("\n enter expence of 5 user : ");
-    scanf("%d",&ex5);
-    average=(ex1+ex2+ex3+ex4+ex5)/5;
-    printf("average of expence is : %d",average);   
+    int expence[5],Texpence=0,Aexpence;
+    
+    for(int i=1;i<=5;i++){
+        printf("\n enter expence of employ %d : ",i);
+        scanf("%d",&expence[i]);
+
+        Texpence+=expence[i];
+    }
+    Aexpence=Texpence/5;
+
+    printf("\n total expence of all employ : %d",Texpence);
+    printf("\n average expence of all employ : %d",Aexpence);
 }
