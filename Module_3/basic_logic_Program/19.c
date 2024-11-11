@@ -1,3 +1,5 @@
+//Calculate compound interest
+
 #include<stdio.h>
 int main(){
     float P,R,t,amount;

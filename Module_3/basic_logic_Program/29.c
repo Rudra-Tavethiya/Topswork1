@@ -1,3 +1,5 @@
+//29.	Convert minutes into seconds and hours
+
 #include<stdio.h>
 int main(){
     float sec,min,hour;

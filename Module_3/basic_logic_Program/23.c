@@ -1,3 +1,5 @@
+//23.	WAP to calculate swap 2 numbers with using of multiplication and division
+
 #include<stdio.h>
 int main(){
     int num1,num2;

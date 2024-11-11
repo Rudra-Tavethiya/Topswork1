@@ -1,3 +1,5 @@
+//Convert days into months
+
 #include<stdio.h>
 int main(){
     float days,months;

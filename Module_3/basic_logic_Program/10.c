@@ -1,3 +1,5 @@
+//find the area of a rectangular prism formula : A=2(wl+hl+hw)
+
 #include<stdio.h>
 int area(int l,int h,int w){
     printf("\n area of traingle prisum is : %d",l*h + h*w + w*l);

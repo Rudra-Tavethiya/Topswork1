@@ -1,3 +1,5 @@
+//Find area of Rectangle Formula : A=wl
+
 #include<stdio.h>
 int area(int l,int w){
     printf("\n area of rectangle is : %d",l*w);

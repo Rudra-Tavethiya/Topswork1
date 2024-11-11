@@ -1,3 +1,5 @@
+//Calculate person’s Annual salary 
+
 #include<stdio.h>
 int main(){
     int Msalary,Asalary;

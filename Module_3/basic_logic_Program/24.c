@@ -1,3 +1,5 @@
+//accept 5 employees name and salary and count average and total salary
+
 #include<stdio.h>
 int main(){
     int salary[5],Tsalary=0,Asalary;
