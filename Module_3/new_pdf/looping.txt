@@ -1,0 +1,49 @@
+Compare and contrast while loops, for loops, and do-while loops. 
+Explain the scenarios in which each loop is most appropriate.
+
+while loop : while loop is check the condition first, if the condition is false the loop is not run
+    
+    syntex : while(condition){
+                code to excute
+             }
+    example : #include<stdio.h>
+              int main(){
+                int num=1;
+                while(num<=5){
+                    printf("%d  ",num);
+                    i++;
+                }
+              }
+
+for loop : in for loop the initialization is runs first then cheack the condition and if the condition
+           is true then the code will be excute by the increment/decrement 
+
+    syntex : for(initialization; condition; increment/decrement){
+                code to be excute
+             }
+
+    example : #include<stdio.h>
+              int main(){
+                int i;
+                for(i=1;i<=5;i++){
+                    printf("%d  ",i);
+                }
+              }
+
+do-while loop : this loop is excute the block of code first then after it check the condition,
+                then if the condition is true the loop is repet that.
+
+    syntex : do{
+                code to be excute
+             }
+             while(condition)
+
+    example : #include<stdio.h>
+              int main(){
+                int i=1;
+                do{
+                    printf("%d  ",i);
+                    i++;
+                }
+                while(i<=5);
+              }

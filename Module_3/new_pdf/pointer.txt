@@ -1,0 +1,16 @@
+Explain what pointers are in C and how they are declared and initialized.
+Why are pointers important in C?
+
+pointers : pointers are variable that stored address in another variable.
+
+declaration : to declared the pointer, apecify the datatype then start sign (*) the the name of variable.
+           
+        syntex : int *ptr;
+
+
+initialization : to initialized the pointer we have to use sign (&) 
+
+        syntex : ptr=&num;
+
+importance of pointer : it is shows the memory address
+                        it is used in data structure.

@@ -1,0 +1,109 @@
+5. control flow statements in c 
+   Explain decision-making statements in C (if, else, nested if-else, switch). Provide examples of each
+
+    if : the if statement is includes condition , if the condition is true it execute the block of code 
+         whitch is in the if statement.
+         syntex : if(condition){
+                 code to execute if condition true
+                 }
+         example : #include<stdio.h>
+                  int main(){
+                    int num;
+                    printf("\n enter the number : ");
+                    scanf("%d",&num);
+                    if(num>5){
+                        printf("\n number is greter then 5");
+                    }
+                  }
+    else : if the if condition is flase it execute the block ofcode whitch is in the else statement 
+           syntex : if(condition){
+                      code to execute if condition true
+                    }
+                    else{
+                      code to excute if condition flase
+                    }
+           example : #include<stdio.h>
+                     int main(){
+                        int num;
+                        printf("\n enter the number : ");
+                        scanf("%d",&num);
+                        if(num>5){
+                           printf("\n number is greter then 5");
+                        }
+                        else{
+                           printf("\n the number is less then 5");
+                        }
+                     }
+    nested if-else : it includes the conditiont into condition
+           syntex : if(condition){
+                      if(condition){
+                        code to execute if condition true
+                      }
+                      else{
+                        code to excute if condition flase
+                      }
+                    }
+                    else{
+                      code to excute if condition flase
+                    }
+           example : #include<stdio.h>
+                     int main(){
+                        int num;
+                        printf("\n enter the number : ");
+                        scanf("%d",&num);
+                        if(num<=0){
+                            if(num=0){
+                                printf("\n the number is zero");
+                            }
+                            else{
+                                printf("\n number is positive");
+                            }
+                        }
+                        else{
+                           printf("\n the number is negetive");
+                        }
+                     }
+    switch : it allows to run the one out of many code blocks based on selection
+           syntex : switch(choice){
+                       case 1 : 
+                          code for case 1 is choice
+                        break;
+                       case 2 : 
+                          code for case 2 is choice
+                        break;
+                       ......
+                       default : 
+                          code for defult condition
+                        break;
+                    }
+           example : #include <stdio.h>
+                     int main() {
+                        int day;
+                        printf("\n enter number for day (1-7) : );
+                        scanf("%d",&day);
+                      switch (day) {
+                        case 1:
+                           printf("Monday\n");
+                        break;
+                        case 2:
+                           printf("Tuesday\n");
+                        break;
+                        case 3:
+                           printf("Wednesday\n");
+                        break;
+                        case 4:
+                           printf("Thursday\n");
+                        break;
+                        case 5:
+                           printf("Friday\n");
+                        break;
+                        case 6:
+                           printf("sturday\n");
+                        break;
+                        case 7:
+                           printf("sunday\n");
+                        break;
+                        default:
+                           printf("enter valid number\n");
+                        }
+                    }

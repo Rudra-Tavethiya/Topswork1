@@ -1,0 +1,22 @@
+Explain the concept of structures in C.
+Describe how to declare, initialize, an access structure members.
+
+structure : this is a user-defined data type that allows grouping different types of 
+            variables under a single name.
+
+declare the structure : struct student{
+                            int age;
+                            char name[20];
+                            float persentage;
+                        }
+
+initialize the structure : int main{
+                               struct student s1;
+                               s1.age=20;
+                               s1.name=rudra;
+                               s1.persentage=89.63; 
+                           }
+
+access strucure member : printf("%d",s1.age);
+                         printf("%s",s1.name);
+                         printf("%.2f",s1.persentage);

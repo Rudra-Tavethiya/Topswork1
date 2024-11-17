@@ -1,0 +1,25 @@
+What are functions in C ? Explain function declaration, definition, and how to call a function.
+Provide examples.
+
+function : function is the block of code that perform specific task. and it is perform the task 
+           when it is called.
+
+function declaration : this is specifies the function's name,  peramiters. it tells the compailes
+                       the function name.
+
+function definition : this is the block of code that would be excute. 
+                      this is the body of function.
+
+calling a function : To run the program we need to call the function in main program.
+                     by the write the name of function and peramiters we can excute the function
+
+     example : #include<stdio.h>
+               int area(int a){                                  //function declaration
+                printf("\n area of the squre is : %d",a*a);      // function definition
+               }
+               int main(){
+                   int a;
+                   printf("\n enter length of squre : ");
+                   scanf("%d",&a);
+                   area(a);                                      //calling the function
+               }

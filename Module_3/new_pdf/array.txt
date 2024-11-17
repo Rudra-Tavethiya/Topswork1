@@ -1,0 +1,18 @@
+Explain the concept of arrays in C. Differentiate between one-dimensional and 
+multi-dimensional arrays with examples.
+
+array : array is the collection of elements whith same data type and strored in 
+        continues memory location.
+
+one-dimensional array : this is the collection of elements of same data type.
+                        it is like a list or a row of same data type items.
+
+        example : int arr[]={85,65,26,35,74,19,42,31,99,11};
+
+multi-dimensional array : this is the array in array we can stored elements 
+                          in rows and colums (matrix).
+        
+        example : int arr[3][3]={{1,2,3},
+                                 {4,5,6},
+                                 {7,8,9}};
+
