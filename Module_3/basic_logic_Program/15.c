@@ -1,15 +1,23 @@
 //Convert school’s name in abbreviated form
 
 #include<stdio.h>
+#include<ctype.h>
 int main(){
-    char schoolname[50];
+    char schoolname[100];
     int length,i=1;
     printf("enter the name of the school : ");
-    scanf("%s",&schoolname);
+    fgets(schoolname, sizeof(schoolname), stdin);
+    
+    printf("Abbreviated Form: ");
 
-    for(i=0;i<strlen(schoolname);i++){
-        if(schoolname[i]==' ' && schoolname[i+1] != '\0'){
-            printf("\n %c",schoolname[i+1]);
+    if (schoolname[0] != ' ') {
+        printf("%c", toupper(schoolname[0]));
+    }    
+
+
+    for(i=1;schoolname[i]!='\0';i++){
+        if(schoolname[i-1]==' ' && schoolname[i]!=' '  && schoolname[i]!='\n'){
+            printf("%c",toupper(schoolname[i]));
         }
     }
 }
