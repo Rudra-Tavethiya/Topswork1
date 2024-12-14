@@ -1,0 +1,24 @@
+File Handling in C
+THEORY EXERCISE: Explain the importance of filehandling in C. Discuss how toper form file operations like opening, closing,
+                 reading, and writing files.
+
+
+
+importance of file handaling : it is allowing the storing the data in file permanently.
+                               it is allowing the shareing the data between two program.
+                               it is allowing the read and write data in other file from the program.
+
+    opening files : we have to use fopen() function to open the file. 
+                    
+                    there are perticuer modes to read and write a file.
+                        "r" = open for reading the file
+                        "w" = open for writing the file
+                        "w+" = open for read and write the file
+
+        syntex :  file  *file_pointer  =  fopen("file name" , "mode");
+
+    reading files : we have to use fscanf() function to read the data from file
+
+    writing files : we have to use fprintf() function to read the data form file
+
+    closeing the file : we have to use fclose() function to read the data from file
