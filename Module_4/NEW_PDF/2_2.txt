@@ -1,0 +1,30 @@
+Explain the difference between implicit and explicit type conversion in C++
+
+
+implicit conversion : The compiler automatically converts one data type to another without programmer intervention.
+            ex : convert data type int into float
+                 #include<iostream>
+                 using namespace std;
+                 int main(){
+                    int num=10;
+                    float res=num;
+                    cout<<"\n result = "<<res;
+                 }
+
+explicit conversion : The programmer manually specifies the conversion between data types using casting.
+            ex : #include<iostream>
+                 using namespace std;
+                 int main(){
+                    double pi=3.14159;
+                    int res=(int)pi;
+                    cout<<"\n result = "<<res;
+                 }
+
+
+Feature	            |   Implicit Type Conversion	                        |   Explicit Type Conversion
+--------------------|-------------------------------------------------------|-------------------------------------------------------------
+Initiated By	    |   Compiler	                                        |   Programmer
+Syntax	            |   Automatic (no additional code)                      |   Manual (casting is required)
+Safety	            |   Relatively safe	                                    |   Can result in data loss/errors
+Usage	            |   For widening conversions (e.g., int to double)	    |   For narrowing conversions or overriding compiler behavior
+Example	            |   int a = 10; double b = a;	                        |   double a = 10.5; int b = (int)a;

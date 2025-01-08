@@ -1,0 +1,50 @@
+Explain nested control structures with an example.
+
+
+nested loop : A loop inside another loop.
+
+       ex : #include <iostream>
+            using namespace std;
+
+            int main() {
+                for (int i = 1; i <= 5; i++) {          // Outer loop
+                    for (int j = 1; j <= 5; j++) {      // Inner loop
+                        cout << i * j << "\t";          // Print product of i and j
+                    }
+                cout << endl;                       // Newline after each row
+                }
+            }
+
+       output : 1   2   3   4   5
+                2   4   6   8   10
+                3   6   9   12  15
+                4   8   12  16  20
+                5   10  15  20  25
+
+
+Conditional Inside a Loop: An if-else statement inside a loop
+
+       ex : #include <iostream>
+            using namespace std;
+
+            int main() {
+                for (int i = 1; i <= 10; i++) {  // Loop through numbers 1 to 10
+                    if (i % 2 == 0) {            // Check if the number is even
+                        cout << i << " is even." << endl;
+                    } 
+                    else {                     // Otherwise, it's odd
+                        cout << i << " is odd." << endl;
+                    }
+                }
+            }
+
+       output : 1 is odd.
+                2 is even.
+                3 is odd.
+                4 is even.
+                5 is odd.
+                6 is even.
+                7 is odd.
+                8 is even.
+                9 is odd.
+                10 is even.

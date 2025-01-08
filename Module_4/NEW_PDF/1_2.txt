@@ -1,0 +1,12 @@
+List and explain the main advantages of OOP over POP.
+
+
+Aspect	                 |   OOP Advantage	                                     |   POP Limitation
+-------------------------|-------------------------------------------------------|-----------------------------------------------------
+Encapsulation	         |  Hides data, ensures integrity	                     |  No inherent data hiding
+Reusability	             |  High through inheritance and polymorphism	         |  Limited to function reuse
+Modularity	             |  Divides code into manageable classes	             |  Relies on functions, harder to manage at scale
+Data Security	         |  Access modifiers restrict unauthorized access	     |  Data is more exposed and prone to accidental changes
+Scalability	             |  Easily adapts to larger and more complex systems	 |  Scaling increases complexity
+Real-World Modeling	     |  Closely represents entities and interactions	     |  Less intuitive for modeling complex systems
+Error Handling	         |  Built-in robust mechanisms	                         |  Manual and prone to oversight

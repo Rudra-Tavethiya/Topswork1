@@ -1,0 +1,45 @@
+What are the different types of operators in C++ ? Provide examples of each.
+
+
+
+1. arithmetic operators :   +    addition                           a+b
+                            -    substraction                       a-b
+                            *    multiplication                     a*b
+                            /    division                           a/b
+                            %    modulo                             a%b
+
+2. relational operators :   <    less then                          a<b
+                            >    greter then                        a>b
+                            <=   less or equal to                   a<=b
+                            >=   greter or equal to                 a>=b
+                            ==   equal to                           a==b
+                            !=   not equal to                       a!=b
+
+3. assignment operators :   =    assign                             a=b
+                            +=   plus and assign                    a+=b
+                            -=   subtract and assign                a-=b
+                            *=   multiply and assign                a*=b
+                            /=   divide and assign                  a/=b
+                            %=   modulo and assign                  a%=b
+
+4. logical operators    :   &&   logical and                        a && b
+                            ||   logical or                         a || b
+                            !    logical not                        a ! b
+
+5. bitwise operators    :   &    bitwise and                        a & b
+                            |    bitwise or                         a ! b
+                            ^    exclusive or                       a ^ b
+                            ~    negation                           ~a
+                            <<   shift left                         <<a
+                            >>   shift right                        >>a
+
+6. increment and decriment operator :   ++a  pre increment          ++a
+                                        a++  post increment         a++
+
+                                        --a  pre decrement          --a
+                                        a--  post decrement         a--
+
+7. misilinious operators :  *(pointer)
+                            &(address of)
+
+8. ternary operator     :   ?: conditional operator                 (condition) ? (if condition true then) : (if condition false then)

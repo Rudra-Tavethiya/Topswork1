@@ -1,0 +1,17 @@
+What are the key differences between Procedural Programming and Object-Oriented Programming (OOP) ?
+
+
+
+
+    Aspect	     |          Procedural Programming           |      Object-Oriented Programming (OOP)
+-----------------|-------------------------------------------|-------------------------------------------------
+Core Concept	 |  Procedures and functions	             |  Objects and classes
+Data Handling	 |  Separate from functions	                 |  Encapsulated within objects
+Modularity	     |  Functions and procedures	             |  Classes and objects
+Reusability	     |  Limited to function reuse	             |  High through inheritance and polymorphism
+Approach	     |  Top-down, step-by-step	                 |  Bottom-up, modeling real-world entities
+Data Security	 |  Less encapsulated, more exposed	         |  High encapsulation with access modifiers
+Inheritance	     |  Not supported	                         |  Supported
+Polymorphism	 |  Not inherently supported	             |  Supported
+Maintenance	     |  Can be challenging for large codebases	 |  Easier due to modularity and encapsulation
+Use Cases	     |  Simple scripts, algorithmic tasks	     |  Complex applications, GUI, enterprise software

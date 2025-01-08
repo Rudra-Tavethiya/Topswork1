@@ -1,0 +1,14 @@
+What are the main input / output operations in C++ ? Provide examples.
+
+
+output operations : 
+                    cout : cout operations is display data to the user.
+
+                        exe:   cout<<"hello world!!";      // output operation
+
+input operations : 
+                    cin : cin operations is read the data and provide the data to the program.
+                          
+                        exe :   int num;
+                                cout<<"enter the number : ";    
+                                cin<<num;                     // input operation

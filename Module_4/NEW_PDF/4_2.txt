@@ -1,0 +1,15 @@
+What is the scope of variables in C++ ? Differentiate between local and global scope
+
+
+scope of a variable : it refers to the part of the program where the variable is accessible.
+                      It determines the visibility and lifetime of a variable.
+
+
+Aspect	            |   Local Scope	                                          |   Global Scope
+--------------------|---------------------------------------------------------|----------------------------------------------
+Declaration	        |   Inside a function or block.	                          |   Outside of all functions or blocks.
+Accessibility	    |   Limited to the function/block.	                      |   Accessible from anywhere in the program.
+Lifetime	        |   Exists only during the function/block execution.      |   Exists throughout the program execution.
+Memory	            |   Allocated in the stack (temporary).	                  |   Allocated in the global memory segment.
+Default Value	    |   Uninitialized by default.	                          |   Initialized to 0 or equivalent default.
+Risk of Conflict	|   No conflicts outside its block.	                      |   Can lead to naming conflicts or overwriting.

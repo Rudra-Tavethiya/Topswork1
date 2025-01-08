@@ -1,0 +1,46 @@
+What are conditional statements in C++ ? Explain the if-else and switch statements.
+
+
+conditional statements : it allow you to make decisions based on conditions. 
+                         These statements control the flow of execution by checking specific conditions and executing blocks of code
+
+
+            if statements : if the condition is true then executing the block of code
+                    syntex : if(condition){
+                                block of code
+                             }
+
+            if-else statements : if ~ the condition is true then executing the block of code
+                                 else ~ the condition is not true then executing the block of code
+                    syntex : if(condition){
+                                block of code
+                             }
+                             else{
+                                block of code
+                             }
+
+            else if statements : if there are many condition then that time use else if statement
+                    syntex : if(condition){
+                                block of code
+                             }
+                             else if(condition){
+                                block of code
+                             }
+                             else if(condition){
+                                block of code
+                             }
+                             else{
+                                block of code
+                             }
+
+            switch statement : Used for selecting one of many code blocks to execute.
+                               The value of a variable/expression is compared against multiple case labels.
+                    syntex : switch(choice){
+                                case 1: block of code
+
+                                case 2: block of code
+
+                                case 3: block of code
+
+                                default: block of code
+                             }

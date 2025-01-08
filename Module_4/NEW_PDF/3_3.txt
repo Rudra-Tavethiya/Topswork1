@@ -1,0 +1,44 @@
+How are break and continue statements used in loops ? Provide examples.
+
+break statements : Used to immediately terminate the loop regardless of the loop's condition.
+                    
+            When the break statement is encountered, the control exits the loop, skipping any remaining iterations.
+
+       ex : #include <iostream>
+            using namespace std;
+
+            int main() {
+                for (int i = 0; i < 10; i++) {
+                    if (i == 5) {
+                        break;  // Exit the loop when i equals 5
+                    }
+                    cout << i << " ";
+                }
+            }
+
+        output : 0 1 2 3 4
+
+        The loop terminates when i becomes 5 due to the break statement.
+
+
+
+continue statements : Used to skip the current iteration of the loop and continue with the next iteration.
+           
+            When the continue statement is encountered, the remaining statements in the loop body for the current iteration are skipped, 
+            and the next iteration begins.
+
+       ex : #include <iostream>
+            using namespace std;
+
+            int main() {
+                for (int i = 0; i < 10; i++) {
+                    if (i == 5) {
+                        continue;  // Skip the iteration when i equals 5
+                    }
+                    cout << i << " ";
+                }
+            }
+
+        Output: 0 1 2 3 4 6 7 8 9
+
+        When i equals 5, the continue statement skips the rest of the loop body, and the loop proceeds with the next iteration.

@@ -1,0 +1,15 @@
+Explain the steps involved in setting up a C++ development environment.
+
+
+step 1 : open the file exploer and copy the path of compailer's bin section.
+
+step 2 : search in task bar "edit the system environment variavles" and open it.
+
+step 3 : clik on "environment variavles..."
+
+step 4 : select "path" in user variavles of laptop, then clik on "edit..", then clik on "new" option and past the path. and save it.
+
+step 5 : select "path" in system variavles, then clik on "edit..", then clik on "new" option and past the path. and save it.
+
+
+This way we can setting up the environment variavles in our laptop.

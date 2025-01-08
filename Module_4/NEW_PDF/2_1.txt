@@ -1,0 +1,7 @@
+What are the different data types available in C++ ? Explain with examples.
+
+
+basic data types : int      : it stored the integer numbers                          : size 4 bytes
+                   float    : it stored the numbers with decimal values              : size 4 bytes
+                   double   : it stored the decimal numbers with higher precision    : size 8 bytes
+                   char     : it stored the single character                         : size 1 bytes
