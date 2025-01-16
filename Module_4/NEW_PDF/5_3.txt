@@ -1,0 +1,39 @@
+How are arrays initialized in C++ ? Provide examples of both 1D and 2D arrays.
+
+
+
+1D array : 
+    syntex : data_type array_name[size] = {value1, value2, ..., valueN};
+
+    initialization : int arr[5] = {10, 20, 30, 40, 50};
+
+    ex : #include <iostream>
+         using namespace std;
+         int main() {
+            int arr[5] = {10, 20, 30, 40, 50};
+            cout << "1D Array Elements: ";
+            for (int i = 0; i < 5; i++) {
+                cout << arr[i] << " ";
+            }
+         }
+
+2D array : 
+    syntex : data_type array_name[rows][columns] = {{row1_values}, {row2_values}, ...};
+
+    initialization : int matrix[2][3] = {{1, 2, 3},
+                                         {4, 5, 6}};
+
+    ex : #include <iostream>
+         using namespace std;
+            int main() {
+                int matrix[2][3] = {{1, 2, 3},
+                                    {4, 5, 6}};
+
+                cout << "2D Array Elements:" << endl;
+                for (int i = 0; i < 2; i++) {
+                    for (int j = 0; j < 3; j++) {
+                        cout << matrix[i][j] << " ";
+                    }
+                    cout << endl;
+                }
+            }

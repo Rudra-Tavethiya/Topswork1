@@ -1,0 +1,20 @@
+What is encapsulation in C++? How is it achieved in classes?
+
+
+
+Encapsulation : it is one of the fundamental principles of Object-Oriented Programming (OOP). 
+
+                It is the process of bundling data (attributes) and methods (functions) that operate on 
+                the data into a single unit, typically a class. 
+
+                Encapsulation ensures that the internal details of a class are hidden from the outside world, providing 
+                a way to restrict direct access to some components and allowing controlled access through specific methods.
+
+
+        How Encapsulation is Achieved in C++
+
+            Classes: To group data members and member functions.
+            Access Specifiers:
+                private: Members are accessible only within the class.
+                protected: Members are accessible within the class and its derived classes.
+                public: Members are accessible from outside the class

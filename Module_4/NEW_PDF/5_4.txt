@@ -1,0 +1,14 @@
+Explain string operations and functions in C++.
+
+
+string operations & function : by using the functions of string we can perform the task easlly 
+                               their are so many inbuld function in compailer                               
+
+functions : length() / size() : for fing the length of string
+            + / append() : for adding two string 
+            == / compare() : for compare two string
+            substr() : subtracting string
+            find() : it returns the position of the first occurrence of a substring
+            replace() : to modify a part of the string
+            insert() : adds a substring at a specified position
+            erase() : to remove a part of the string

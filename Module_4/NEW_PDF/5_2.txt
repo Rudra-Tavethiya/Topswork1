@@ -1,0 +1,14 @@
+Explain string handling in C++ with examples.
+
+
+
+string handaling : by that we can handle string differantly.
+                   we can add two string (+), subtract the string, compare two string, find the length
+
+            ex : string str3 = str1 + " " + str2;       // add two string
+
+                 str3.length()  // for find the length
+
+                 str3[0]        // we can see the any character of string by changing the number 
+
+                 str3.substr(0, 5)      // for see the first 0 to 5 character in string

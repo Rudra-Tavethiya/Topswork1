@@ -1,0 +1,28 @@
+What are classes and objects in C++ ? Provide an example.
+
+
+class : it is a blueprint for creating objects. 
+        It defines the data members (attributes) and member functions (methods) that operate on the data. 
+        The class does not occupy memory until objects are created from it.
+
+            syntex : class ClassName {
+                        public:
+                            // Access specifier
+                            // Data members (attributes)
+                            // Member functions (methods)
+                     };
+
+object : it is an instance of a class. 
+         It is a tangible entity that has state (defined by data members) and behavior (defined by member functions). 
+         Each object has its own copy of the class’s data members.
+
+            syntex : if the class name is "car"
+
+                     car c1;                    // c1 is object
+                     c1.brand = "toyota";       // Access data member
+                     car1.model = "Corolla";    // Access data member
+                     car1.year = 2020;          // Access data member
+                     
+                     c1.displayDetails();       // Call member function
+
+                     

@@ -1,0 +1,47 @@
+Whatis inheritance in C++? Explain with an example.
+
+
+
+inheritance : It allows one class (derived class) to inherit properties (data members) and behaviors (member functions) from 
+              another class (base class). This promotes code reusability and the creation of a hierarchical relationship between classes.
+
+        syntex : class BaseClass {
+                    // Members of the base class
+                 };
+                 
+                 class DerivedClass : access_specifier BaseClass {
+                    // Additional members of the derived class
+                 };
+
+        types of inheritance : 
+
+                Single Inheritance          : One derived class inherits from one base class.
+                Multiple Inheritance        : A derived class inherits from multiple base classes.
+                Multilevel Inheritance      : A derived class inherits from another derived class.
+                Hierarchical Inheritance    : Multiple derived classes inherit from a single base class.
+                Hybrid Inheritance          : Combination of multiple and multilevel inheritance.
+              
+
+        ex of single inheritance : 
+             #include <iostream>
+             using namespace std;
+             class Animal {
+                public:
+                void eat() {
+                    cout << "This animal eats food." << endl;
+                }
+             };
+
+             class Dog : public Animal {
+                public:
+                void bark() {
+                    cout << "The dog barks." << endl;
+                }
+             };
+
+             int main() {
+                Dog myDog;
+            
+                myDog.eat();
+                myDog.bark();
+             }

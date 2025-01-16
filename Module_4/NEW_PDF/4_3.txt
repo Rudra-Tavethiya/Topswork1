@@ -1,3 +1,28 @@
 Explain recursion in C++ with an example.
 
 
+Recursion : it is a programming technique where a function calls itself directly or indirectly to solve a problem.
+            In C++, recursion is implemented by defining a function that calls itself with modified parameters and includes 
+            a base condition to terminate the recursion
+
+
+        ex : Factorial Calculation 
+             code : #include <iostream>
+                    using namespace std;
+                    int main() {
+                        int number;
+                        cout << "Enter a positive integer: ";
+                        cin >> number;
+
+                        if (number < 0) {
+                            cout << "Factorial is not defined for negative numbers." << endl;
+                        } 
+                        else {
+                            if (n == 0) {
+                                return 1;
+                            } 
+                            else {
+                                return n * factorial(n - 1);
+                            }
+                        }
+                    }

@@ -1,0 +1,30 @@
+Explain the key concepts of Object-Oriented Programming (OOP).
+
+
+class & object :        class : A blueprint or template for creating objects. 
+                                It defines properties (data members) and behaviors (methods).
+                        Object : An instance of a class that encapsulates data and functionality.
+
+Encapsulation : it is the bundling of data and methods that operate on the data within a single unit (class).
+                Access to the data is restricted using access specifiers:
+                    private: Members are accessible only within the class.
+                    protected: Members are accessible within the class and by derived classes.
+                    public: Members are accessible from outside the class.
+
+Inheritance : it allows a class (derived class) to inherit properties and behaviors from another class (base class).
+              It promotes code reuse and the creation of a hierarchical relationship between classes.
+              
+              Types of Inheritance : Single Inheritance
+                                     Multiple Inheritance
+                                     Multilevel Inheritance
+                                     Hierarchical Inheritance
+                                     Hybrid Inheritance
+
+Polymorphism : it means "many forms" and allows the same operation to behave differently in different contexts.
+                Types : 
+                        Compile-time polymorphism: Achieved through function overloading and operator overloading.
+                        Run-time polymorphism: Achieved through function overriding using virtual functions.
+
+Abstraction : it involves hiding the implementation details and showing only the essential features of an object.
+
+              Achieved using abstract classes (classes with at least one pure virtual function) or interfaces.
