@@ -1,0 +1,6 @@
+Write the general structure of an SQL SELECT statement.
+
+
+
+select * from student;                              // see the table
+SELECT Name, Salary FROM Employees;                 // see the perticuler field from table

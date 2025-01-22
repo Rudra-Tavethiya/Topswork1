@@ -1,0 +1,33 @@
+What is the function of the DROP command in SQL ?
+
+
+
+drop function : by the drop function we can remove table, database, or remove column from existing table.
+
+
+
+drope the table : we can delet the table from database
+
+        ex : here we are delet the student table from database.
+
+            syntex : DROP TABLE table_name;
+
+            code : drop table student;
+
+
+drope the database : we can delet the database from the system.
+
+        ex : here we are remove the school database from system
+
+            syntex : DROP DATABASE database_name;
+
+            code : drop database school;
+
+
+remove column from table : we can remove the column from table by using drop function in alter command.
+
+        ex : here we are drop delet the DOB column from student table.
+
+            syntex : ALTER TABLE table_name DROP COLUMN column_name;
+
+            code : alter table student drop column DOB;

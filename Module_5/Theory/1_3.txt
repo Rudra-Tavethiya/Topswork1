@@ -1,0 +1,9 @@
+Describe the role of SQL in managing relational databases
+
+
+
+data definition language        DDL : create    drop       alter	truncate                // work on structure
+data control language           DCL : grant     revoke
+data manipulation language      DML : insert	update     delete                            // work on data
+transection control language    TCL : commit    rollback   save point 
+data query language             DQL : select

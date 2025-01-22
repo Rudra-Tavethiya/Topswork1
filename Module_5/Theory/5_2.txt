@@ -1,0 +1,33 @@
+How can you add, modify, and drop columns from a table using ALTER ?
+
+
+
+add the column : we can add the new column in existing table.
+
+        ex :here we are add the column of date of brith in the student table.
+
+            syntex : ALTER TABLE table_name ADD column_name data_type [constraints];
+        
+            code : alter table student add DOB date;
+
+modify the column : we can change the data type, size and constrains.
+        
+        ex : here we are modify DOB column's datatype from date to datetime.
+
+            syntex : ALTER TABLE table_name MODIFY column_name new_data_type [constraints];
+
+            code : alter table student modify DOB DATETIME;
+
+        ex : here we are modify the constrains from student name column.
+
+            syntex : ALTER TABLE table_name MODIFY column_name new_data_type [constraints];
+
+            code : ALTER TABLE student MODIFY name VARCHAR(100) NOT NULL;
+
+drop the column : we can remove the existing column from table.
+
+        ex : here we are drop delet the DOB column from student table.
+
+            syntex : ALTER TABLE table_name DROP COLUMN column_name;
+
+            code : alter table student drop column DOB;

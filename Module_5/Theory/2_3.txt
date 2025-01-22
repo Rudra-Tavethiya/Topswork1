@@ -1,0 +1,11 @@
+Explain the role of clauses in SQL statements.
+
+
+
+SELECT      : Specifies the columns to retrieve.
+FROM        : Identifies the source table.
+WHERE       : Filters rows based on a salary condition.
+GROUP BY    : Groups rows by department.
+HAVING      : Filters the grouped data based on the average salary.
+ORDER BY    : Sorts the results in descending order of average salary.
+LIMIT       : Restricts the output to the top 3 results.

@@ -1,0 +1,16 @@
+What is the role of NOT NULL and UNIQUE constraints ?
+
+
+
+NOT NULL Constraint : Ensures that a column cannot contain NULL values.
+                      Used to enforce mandatory data entry in a specific column.
+
+                The column must always have a value.
+                Prevents accidental omission of critical data during insertion or update operations.
+
+
+UNIQUE Constraint : Ensures that all values in a column (or a combination of columns) are distinct.
+                    Used to prevent duplicate entries in a specific column or set of columns.
+
+                A column with a UNIQUE constraint can allow only one NULL value (depending on the database system).
+                A table can have multiple UNIQUE constraints on different columns.

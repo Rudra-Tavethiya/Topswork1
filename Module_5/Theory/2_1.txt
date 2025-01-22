@@ -1,0 +1,23 @@
+What are the basic components of SQL syntax ?
+
+
+
+SQL COMMAND : 
+DDL (Data Definition Language): For defining the structure of a database    ex : CREATE, ALTER, DROP
+DML (Data Manipulation Language): For manipulating data in tables           ex : ELECT, INSERT, UPDATE, DELETE
+DCL (Data Control Language): For controlling access to the database         ex : GRANT, REVOKE
+TCL (Transaction Control Language): For managing database transactions      ex : COMMIT, ROLLBACK, SAVEPOINT
+
+Clauses : it define specific parts of SQL statements and control their behavior.
+            Ex : SELECT: Retrieves data from a database.
+                 FROM: Specifies the table to retrieve data from.
+                 WHERE: Filters records based on conditions.
+                 GROUP BY: Groups records with common values.
+                 ORDER BY: Sorts records in ascending or descending order.
+                 HAVING: Filters grouped data.
+
+Operators : it uses operators for various operations:
+            
+            Arithmetic Operators: Perform calculations (+, -, *, /).
+            Comparison Operators: Compare values (=, >, <, <>).
+            Logical Operators: Combine multiple conditions (AND, OR, NOT).

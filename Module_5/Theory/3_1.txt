@@ -1,0 +1,27 @@
+What are constraints in SQL ? List and explain the different types of constraints
+
+
+constraints : it is rules or restrictions applied to columns in a table to ensure data integrity, accuracy, and reliability.
+
+
+
+PRIMARY KEY : Ensures that a column (or combination of columns) uniquely identifies each row in a table.
+                    Uniqueness: No duplicate values are allowed.
+                    Non-Null: Cannot contain NULL values.
+
+FOREIGN KEY : Enforces a relationship between two tables by referencing the primary key in another table.
+                    Ensures referential integrity.
+                    Prevents actions that would break the link between related tables.
+
+UNIQUE : Ensures that all values in a column (or a group of columns) are distinct.
+                    Allows one NULL value (depending on the database).
+                    A table can have multiple unique constraints.
+
+NOT NULL : Ensures that a column cannot have NULL values.
+                    Forces data entry into the column.
+
+DEFAULT : Assigns a default value to a column when no value is specified during insertion.
+                    Automatically inserts the specified default value.
+
+CHECK : Ensures that all values in a column satisfy a specific condition.
+                    Enforces custom rules on column values.

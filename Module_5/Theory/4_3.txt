@@ -1,0 +1,6 @@
+What is the purpose of specifying data types and constraints during table creation?
+
+
+
+When creating a table in SQL specifying data types and constraints is essential for defining the structure, 
+enforcing rules, and maintaining data integrity within the database. 

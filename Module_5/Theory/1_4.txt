@@ -1,0 +1,19 @@
+What are the key features of SQL ?
+
+
+
+Data Definition : it allows you to define the structure of a database, such as creating, modifying, 
+                  and deleting tables, and other database objects.
+                        Commands: CREATE, ALTER, DROP
+
+Data Manipulation : it provides the ability to insert, update, delete, and retrieve data from a database.
+                        Commands: INSERT, UPDATE, DELETE, SELECT
+
+Querying Data : it is highly efficient for querying and retrieving specific data from large datasets using the SELECT statement.
+                        Features: Filtering with WHERE, sorting with ORDER BY, grouping with GROUP BY, and combining tables using JOIN.
+
+Transactions : it provides support for database transactions, ensuring data consistency and reliability.
+                        Commands: BEGIN, COMMIT, ROLLBACK, SAVEPOINT
+
+Security : it provides robust security mechanisms to control access to data and database objects.
+                        Commands: GRANT, REVOKE

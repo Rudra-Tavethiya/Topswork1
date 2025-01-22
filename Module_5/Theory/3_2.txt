@@ -1,0 +1,21 @@
+How do PRIMARY KEY and FOREIGN KEY constraints differ ?
+
+
+
+PRIMARY KEY : A primary key uniquely identifies each record in a table.
+                    Combines uniqueness and non-nullability.
+                    Cannot have duplicate or NULL values.
+
+            The primary key in the parent table ensures each row is uniquely identifiable.
+
+            ex : CREATE TABLE Employees (EmployeeID INT PRIMARY KEY, Name VARCHAR(50));
+
+
+
+FOREIGN KEY : A foreign key establishes a relationship between two tables by referencing the primary key of another table.
+                    Ensures referential integrity by preventing actions (e.g., deletion of parent records) that break the link.
+                    Can allow duplicate or NULL values in the child table.
+
+            The foreign key in the child table references the primary key in the parent table to establish a relationship.
+        
+            ex : CREATE TABLE Orders (OrderID INT PRIMARY KEY, EmployeeID INT, FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID));

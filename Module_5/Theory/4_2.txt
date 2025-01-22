@@ -1,0 +1,18 @@
+Explain the CREATE command and its syntax.
+
+
+
+The CREATE command in SQL is a Data Definition Language (DDL) command used to create new database objects such as tables. 
+It is one of the fundamental commands for defining the structure of a database.
+
+
+
+Creating a Database : by that we can create the data base.
+            
+            Syntax : CREATE DATABASE database_name;
+
+Creating a Table : by that we can create the table.
+
+            syntex : CREATE TABLE table_name (column_name1 data_type constraint, 
+                                              column_name2 data_type constraint, 
+                                              ...);

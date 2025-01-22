@@ -1,0 +1,22 @@
+Explain the difference between DBMS and RDBMS.
+
+
+
+DBMS (Database Management System) : 
+                    A software system that manages databases and allows users to perform Create, Read, Update, Delete operations.
+                    Data is typically stored as files or key-value pairs.
+                    Does not necessarily enforce relationships between data.
+                    Can handle unstructured or semi-structured data.
+                    ex : Microsoft Access, file systems, XML-based storage.
+                    Basic security features like user authentication.
+                    May be slower when handling large amounts of data or complex queries.
+
+
+RDBMS (Relational Database Management System) : 
+                    A type of DBMS that organizes data into tables (rows and columns) and uses relations (keys) to connect them.
+                    Data is stored in a tabular format with rows and columns.
+                    Enforces relationships between tables using foreign keys and primary keys.
+                    Handles structured data with a predefined schema.
+                    ex : MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.
+                    Advanced security features such as role-based access control and granular permissions.
+                    Optimized for handling large datasets and performing complex queries efficiently.

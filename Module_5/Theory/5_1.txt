@@ -1,0 +1,10 @@
+What is the use of the ALTER command in SQL?
+
+
+
+add new column in the existing table
+modify the column in the existing table eg., data type, size, constrains
+remane the column from the table
+drop the column from table
+add and remove constrains in table
+remane table

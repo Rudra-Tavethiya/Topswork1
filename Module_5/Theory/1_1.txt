@@ -1,0 +1,15 @@
+What is SQL, and why is it essential in database management ?
+
+
+SQL : Structured Query Language
+      It is a standard programming language specifically designed for interacting with relational databases. 
+      It is used to manage and structure the database itself.
+
+
+
+it enables efficient storage, retrieval, and modification of data.
+it allows for handling large volumes of data systematically.
+it enforces rules like primary keys, foreign keys, and unique constraints to maintain data accuracy and consistency.
+it provides mechanisms to control user access through roles and permissions.
+it allows developers to extract specific information from large datasets using filters, joins, and aggregations.
+it works well with small and large-scale databases, making it suitable for all sizes.
