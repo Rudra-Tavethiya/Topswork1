@@ -1,0 +1,9 @@
+What is the purpose of the COMMIT and ROLLBACK commands in SQL?
+
+
+
+commit : it is used to save all changes made during the run the code in mysql
+         once a COMMIT is used, the changes become visible to other users and cannot be undone.
+
+rollback : it is used to undo all changes made during the run code if an error occurs 
+           changes are reverted to the state before the transaction started.

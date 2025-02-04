@@ -1,0 +1,6 @@
+What is the importance of the WHERE clause in UPDATE and DELETE operations?
+
+
+
+by that we can findout which row we have to update and delete.
+without the where condition the action is apply in all table's row it can lead the data loss.

@@ -1,0 +1,29 @@
+Define the INSERT, UPDATE, and DELETE commands in SQL.
+
+
+
+insert : insert command is used for add new row in the table.
+        
+        ex : we add row in student table. values are in according to student_id, name, mobile_no, DOB 
+
+            syntex : insere into table_name values (value1, value2, value3, ...);
+
+            code : insert into student values (1,"rudra",9316977670,"2004-09-12");
+
+update : update command is used to modify existing records in a table. 
+         we can use by WHERE to specify which rows to update.
+
+        ex : here we are update the name rudra into karan where student id = 1 
+
+            syntex : update table_name set column1 = value1, column2 = value2, ... where condition;
+
+            code : update student set name="karan" where student_id=1;
+
+delete : delete command is used to remove the record from table.
+         we can use by where to specify which row to delete.
+
+        ex : here we are delete the row from table where the student id = 1
+
+            syntex : delete from table_name where condition;
+
+            code : dleete from student where student_id=1;

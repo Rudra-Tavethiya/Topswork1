@@ -1,0 +1,12 @@
+What is the GROUP BY clause in SQL? How is it used with aggregate functions?
+
+
+
+broup by : it is used to group rows that have same values in specified columns into summry rows
+           it is commanly used with aggregate functions to perform calculation
+
+    
+
+    divide data into group : rows with the same value in the specified column are grouped together
+
+    perfrom aggregation on gropup : aggregate function are applied to each group, returning one result per group

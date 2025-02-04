@@ -1,0 +1,17 @@
+How do you manage privileges using these commands?
+
+
+
+grant privileges : we can assign specific permissions to users depending on what actions they are allowed to perform on database objects.
+
+        ex : here we are allow select & insert permissions to the user1 in customer table in shop database
+
+            code : grant select,insert on shop.customer to 'user1'@'localhost';
+
+
+
+revoke privileges : When a user no longer needs access or their permissions need to be restricted, we can remove specific privileges.
+
+        ex : here we are remove select permission from user1 in customer table in shop database
+
+            code : revoke select on lec_18_12.customer from 'user1'@'localhost';

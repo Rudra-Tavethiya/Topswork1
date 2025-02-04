@@ -1,0 +1,14 @@
+Explain the difference between GROUP BY and ORDER BY.
+
+
+
+group by : group rowa based on column values
+           it effects numbers of rows
+           it work with aggregate function
+           sorting not applied
+
+
+order by : it sorts the results set
+           no effects by numbers of rows 
+           it is not work with aggregate function
+           sorting are applied

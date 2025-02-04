@@ -1,0 +1,25 @@
+Explain the concept of JOIN in SQL. 
+What is the difference between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN?
+
+
+
+join : it is used to combine rows from two or more tables based on a related column between them.
+
+    their is 4 types of join : 1. inner join
+                               2. left join
+                               3. right join
+                               3. full outer join
+
+
+    1. inner join : it is used to return those result from table that combines row from two tables where there is match by specified columns
+                    based on condition.
+                    intersection of Table A and Table B (common rows)
+
+    2. left join : it is used to return all row from left table and matching row from right table.
+                   all rows from Table A + matching rows from Table B
+
+    3. right join : it is used to return all row from right table and matching rwo from left table.
+                    all rows from Table B + matching rows from Table A
+
+    4. full outer join : it is used combine all results from both left join and right join. it return all row from both table.
+                         union of all rows from Table A and Table B (matches and non-matches)

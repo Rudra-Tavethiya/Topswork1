@@ -1,0 +1,21 @@
+What is the SELECT statement, and how is it used to query data?
+
+
+
+select statement : it is used to see data from one or more tables in a database.
+                   it allows you to specify the columns and rows you want to query based on certain criteria.
+
+
+SELECT: Specifies the columns to see. Use * to select all columns.
+
+FROM: Specifies the table(s) to query data from.
+
+WHERE (Optional): Filters rows based on specific conditions.
+
+ORDER BY (Optional): Sorts the result set in ascending or descending order.
+
+GROUP BY (Optional): Groups rows that have the same values in specified columns.
+
+HAVING (Optional): Filters grouped data based on conditions.
+
+LIMIT (Optional): Restricts the number of rows returned.

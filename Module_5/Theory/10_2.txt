@@ -1,0 +1,13 @@
+Explain how transactions are managed in SQL databases.
+
+
+
+The SQL Transaction Process : 
+            
+            BEGIN TRANSACTION: Starts a transaction. 
+                              
+            COMMIT: Commits the transaction, saving all changes made. 
+                              
+            ROLLBACK: Rolls back the transaction, undoing all changes made since the BEGIN TRANSACTION 
+
+            SAVEPOINT: Marks a point within a transaction to which you can later roll back.

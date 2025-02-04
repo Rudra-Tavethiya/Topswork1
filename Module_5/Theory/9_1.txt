@@ -1,0 +1,9 @@
+What is the purpose of GRANT and REVOKE in SQL?
+
+
+
+grant : it is used to give specific privileges to a user or role.
+        this allows authorized users to perform specific actions on database objects.
+
+revoke : it is used to remove previously granted privileges from a user or role. 
+         this restricts access to database objects.

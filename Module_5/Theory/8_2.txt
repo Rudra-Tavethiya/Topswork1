@@ -1,0 +1,16 @@
+Explain the use of the ORDER BY and WHERE clauses in SQL queries
+
+
+
+order by : it is used in SQL queries to sort the rows in the result set based on one or more columns. 
+           Sorting can be done in either ascending order (default) or descending order.
+
+        
+        ASC (Ascending Order): The default order if no sort direction is specified. 
+                               Values are sorted from smallest to largest (e.g., A-Z, 0-9).
+        
+        DESC (Descending Order): Values are sorted from largest to smallest (e.g., Z-A, 9-0).
+
+
+where : it is used in SQL queries to filter rows based on specific conditions. 
+        Only rows that satisfy the condition(s) are included in the result set.
