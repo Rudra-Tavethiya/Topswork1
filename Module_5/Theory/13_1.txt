@@ -2,3 +2,14 @@ What is a stored procedure in SQL, and how does it differ from a standard SQL qu
 
 
 
+stored procedure : it is a pre-compailed set of statements stored in the database
+                    called using specific command
+                    it is a faster 
+                    it can reuse multiple time
+                    
+
+standard sql query : it is a single sql statement or a set of statements excuted at runtime
+                    excute immediatly when write in query editor
+                    it is slower 
+                    need to be re-write
+                    
