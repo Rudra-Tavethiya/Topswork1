@@ -1,0 +1,6 @@
+What is a trigger in SQL? Describe its types and when they are used.
+
+
+
+trigger : it is the specialtype of stored procedure it is excure automattically when specific event occure
+        

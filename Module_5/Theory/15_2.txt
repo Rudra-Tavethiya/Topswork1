@@ -1,0 +1,9 @@
+Explain the difference between INSERT, UPDATE, and DELETE triggers
+
+
+
+INSERT trigger : it is insert after or befor add new row 
+
+UPDATE trigger : it is modify row after or before 
+
+DELETE trigger : it is delete the row after or before
