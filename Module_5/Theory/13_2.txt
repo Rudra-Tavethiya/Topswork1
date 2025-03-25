@@ -1,0 +1,8 @@
+Explain the advantages of using stored procedures.
+
+
+
+advantages : improved performance
+            code reusability
+            enhance security
+            transaction management

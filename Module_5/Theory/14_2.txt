@@ -1,0 +1,8 @@
+Explain the advantages of using views in SQL databases. 
+
+
+
+advantages : simplifies complex queries
+            enhance security
+            enhance performance
+            provide logical data

@@ -1,0 +1,11 @@
+What is a view in SQL, and how is it different from a table? 
+
+
+
+view in sql : it is a vartual table in sql 
+            it does not store the data, only store the sql query
+            we can restrict certain coloumn or rows by limiting query
+
+tables in sql : it is a physical structure
+                it is the stored data in database
+                full table access required
