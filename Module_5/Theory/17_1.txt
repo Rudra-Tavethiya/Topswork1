@@ -1,0 +1,20 @@
+What are control structures in PL/SQL? Explain the IF-THEN and LOOP control structures.
+
+
+
+control statements : IF-THEN
+                    LOOP (WHILE, FOR)
+
+
+IF-THEN : use for decision making
+
+    syntex : IF condition THEN
+                statements
+            END IF;
+
+
+WHILE : use for run the code untill the condition is not true
+
+    syntex : WHILE x>0 DO
+                statements
+            END WHILE;

@@ -1,0 +1,9 @@
+How do control structures in PL/SQL help in writing complex queries? 
+
+
+
+IF-THEN : allows different sql statements based on condition
+            usefull in stored procedures
+
+
+LOOP : help in processing multiple rows dynamically
