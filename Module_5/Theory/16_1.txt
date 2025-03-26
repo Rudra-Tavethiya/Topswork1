@@ -1,0 +1,9 @@
+What is PL/SQL, and how does it extend SQL's capabilities? 
+
+
+
+PL : it is the procedural programming 
+    it support the procedural elements like., loops, if-else 
+    store procedures and functions
+    triggers like.,(insert, update, delete)
+    cursors 

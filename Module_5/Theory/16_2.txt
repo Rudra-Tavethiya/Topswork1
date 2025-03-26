@@ -1,0 +1,9 @@
+List and explain the benefits of using PL/SQL. 
+
+
+
+it allows multiple sql statements to be grouped into a single block 
+it allows procedural elements like, loops, if-else, 
+code re-usability
+exception handaling
+trigger like., insert, update, delete 
