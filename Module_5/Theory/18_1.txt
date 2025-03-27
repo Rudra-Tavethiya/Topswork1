@@ -2,3 +2,16 @@ What is a cursor in PL/SQL? Explain the difference between implicit and explicit
 
 
 
+
+cursor : in pl/sql it is the pointer to a context area that stores the result set of sql query
+
+
+
+implicit cursor : automatically created by oracal
+                    fully manged by oracal
+                    used for DML operation
+                    
+
+explicit cursor : defined by the user
+                    requred manual declaration
+                    use for queries that return multiple rows
