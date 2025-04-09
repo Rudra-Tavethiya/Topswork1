@@ -1,0 +1,5 @@
+When would you use an explicit cursor over an implicit one?
+
+
+
+when we have to return more then one row in output at that time we have to use explicit cursor over implicit cursor

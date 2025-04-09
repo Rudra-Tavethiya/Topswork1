@@ -1,0 +1,5 @@
+When is it useful to use savepoints in a database transaction?
+
+
+
+when we have to undo the transaction at that time the savepoint are usefull in transaction

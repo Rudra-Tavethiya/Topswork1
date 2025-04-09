@@ -1,0 +1,12 @@
+Explain the concept of SAVEPOINT in transaction management. How do ROLLBACK and COMMIT interact with savepoints? 
+
+
+
+
+when we run the sql qury at that rime we have to add save point in the transaction by that we can redirect
+at that point went we are call that point
+
+we can redirect to perticuler savepoint by calling rollback command with that perticuler savepoint
+
+by the COMMIT we can save the data permanantly in database 
+we can not rollback at that point when we COMMIT the data
