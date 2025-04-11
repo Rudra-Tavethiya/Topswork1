@@ -60,6 +60,15 @@ INSERT INTO Loan (loan_no, branch_id, acc_holder_id, loan_amount, loan_type) VAL
 (207, 1, 109, 4000.00, 'education');
 
 
+
+-- Consider an example where there’s an account holder table where we are doing an intra bank transfer
+--             i.e. a person holding account A is trying to transfer $100 to account B.
+
+--         for this you have to make a transaction in sql which can transfer fund from account A to B  
+
+--         Make sure after the transaction the account information have to be updated for both the 
+--         credit account and the debited account
+
 START TRANSACTION;
 
 UPDATE Account_Holder
@@ -72,6 +81,10 @@ WHERE account_no = 'A002';
 
 COMMIT;
 
+
+
+-- Also fetch the details of the account holder who are related from the same city  
+
 SELECT *
 FROM Account_Holder AH1
 WHERE EXISTS (
@@ -80,13 +93,27 @@ WHERE EXISTS (
     WHERE AH1.city = AH2.city
 );
 
+
+
+-- Write a query to fetch account number and account holder name, whose accounts were created after 15th of any month
+
 SELECT account_no, acc_holder_name
 FROM Account_Holder
 WHERE DAY(date_created) > 15;
 
+
+
+-- Write a query to display the city name and count the branches in that city. 
+-- Give the count of branches an alias name of Count_Branch. 
+
 SELECT branch_city AS City, COUNT(*) AS Count_Branch
 FROM Bank
 GROUP BY branch_city;
+
+
+
+-- Write a query to display the account holder’s id, account holder’s name, branch id, 
+-- and loan amount for people who have taken loans. (NOTE : use sql  join concept to solve the query) 
 
 SELECT 
     AH.acc_holder_id,
@@ -95,5 +122,3 @@ SELECT
     L.loan_amount
 FROM Account_Holder AH
 JOIN Loan L ON AH.acc_holder_id = L.acc_holder_id;
-
-
